@@ -1,13 +1,13 @@
 "use client";
 
 import useScrollPos from "@/hooks/useScrollPos";
-import MenuItem from "../navigation/MenuItem";
+import MenuItem from "../menu/elements/MenuItem";
 
 const Navbar = () => {
   const isAtTop = useScrollPos();
   return (
     <div
-      className={`sticky -mt-14 top-0 z-50 ${
+      className={`mobile:hidden sticky -mt-14 top-0 z-50 ${
         isAtTop
           ? "opacity-100"
           : "opacity-0 hover:opacity-100 transition-opacity duration-500"

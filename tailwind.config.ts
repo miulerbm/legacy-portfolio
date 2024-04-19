@@ -8,6 +8,10 @@ const config: Config = {
     "./src/**/*.{js,jsx,ts,tsx}", // Line for being able to use Tailwindd everywhere
   ],
   theme: {
+    screens: {
+      mobile: { max: "1023px" },
+      desktop: { min: "1024px" },
+    },
     extend: {
       colors: {
         lightcyan: "#84ffff",
