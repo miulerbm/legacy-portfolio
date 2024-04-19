@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Adding a smooth scroll behavior for the transitions */
+* {
+  scroll-behavior: smooth !important;
+}
