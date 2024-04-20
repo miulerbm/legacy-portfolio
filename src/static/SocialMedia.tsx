@@ -29,7 +29,7 @@ const SocialMedia = ({ size }: { size: number }) => {
       </a>
       <a
         className="bg-black bg-opacity-50 p-4 rounded-full transition-all hover:scale-110 scale-100"
-        href="https://www.youtube.com/channel/UCz20L2rwCud08iIU4TuFtsQ"
+        href="https://drive.google.com/file/d/1mPAxMKi1W5rXFAjojRBVLVBJrM8mCbax/view?usp=sharing"
         target="_blank"
         title="My CV"
       >
