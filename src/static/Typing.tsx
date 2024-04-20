@@ -28,7 +28,7 @@ const Typing = () => {
         color: "#84ffff",
         fontWeight: "bold",
         display: "inline-block",
-        width: "38.5%",
+        width: "40%",
       }}
       repeat={1}
     />
