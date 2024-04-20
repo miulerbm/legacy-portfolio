@@ -20,6 +20,20 @@
       "link": "",
       "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
       "text": "A website to curate and share photos that capture life's most memorable moments."
+    },
+    {
+      "title": "Photo Website",
+      "image": "/images/PhotoWebsite.webp",
+      "link": "",
+      "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
+      "text": "A website to curate and share photos that capture life's most memorable moments."
+    },
+    {
+      "title": "Photo Website",
+      "image": "/images/PhotoWebsite.webp",
+      "link": "",
+      "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
+      "text": "A website to curate and share photos that capture life's most memorable moments."
     }
   ]
 }
