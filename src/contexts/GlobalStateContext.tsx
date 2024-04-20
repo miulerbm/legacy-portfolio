@@ -1,5 +1,7 @@
-import { GlobalState } from "@/types/types.d";
-import { createContext, useContext, useState } from "react";
+"use client";
+
+import React, { createContext, useState, useContext } from "react";
+import { GlobalState } from "../types/types.d";
 
 const GlobalStateContext = createContext<GlobalState | undefined>(undefined);
 
@@ -13,6 +15,11 @@ export const useGlobalState = (): GlobalState => {
 
 export const GlobalStateProvider = ({ children }: { children: any }) => {
   const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
+  const [isModalOpen, setModalOpen] = useState<boolean>(false);
+
+  const toggleModal = (): void => {
+    setModalOpen((prevState) => !prevState);
+  };
 
   const toggleMenu = (): void => {
     setMenuOpen((prevState) => !prevState);
@@ -22,10 +29,17 @@ export const GlobalStateProvider = ({ children }: { children: any }) => {
     setMenuOpen(false);
   };
 
+  const exitModal = (): void => {
+    setModalOpen(false);
+  };
+
   const value: GlobalState = {
     isMenuOpen,
     toggleMenu,
+    isModalOpen,
+    toggleModal,
     exitMenu,
+    exitModal,
   };
   return (
     <GlobalStateContext.Provider value={value}>
