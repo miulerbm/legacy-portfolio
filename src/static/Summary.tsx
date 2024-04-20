@@ -10,9 +10,10 @@ const Summary = () => {
         <p className="mb-5">
           I&apos;m a frontend developer with a bachelors degree in Mechatronics
           Engineering. So far I&apos;ve been working with an amazing team at
-          Gope, a peruvian startup where we are building an application for
-          connecting people and different recreation activities such as tours,
-          adventures, extreme sports, etc. Stay tuned, more comming soon!
+          Gope, a peruvian startup where we&apos;re building an application for
+          connecting people and different recreational activities such as tours,
+          adventures, extreme sports, etc. Stay tuned for much more comming
+          soon!
         </p>
         Something I like to remind:
         <p className="mb-5 italic">
