@@ -15,7 +15,7 @@ const About = () => {
           <div className="flex justify-center desktop:w-1/2 mobile:w-full mobile:p-4 flex-col desktop:p-20">
             <Summary />
           </div>
-          <div className="desktop:flex mobile:hidden w-1/2 flex-col pl-10">
+          <div className="flex justify-center items-center desktop:flex mobile:hidden w-1/2 flex-col pl-10">
             <Timeline />
           </div>
         </div>
