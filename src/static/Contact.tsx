@@ -3,7 +3,7 @@ function Contact() {
     <section className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 desktop:w-1/3 mobile:w-full mobile:px-4 mobile:max-w-3xl">
       <div className="px-2 mx-auto">
         <form
-          action="https://formsubmit.co/YOUR_EMAIL"
+          action="https://formsubmit.co/16f4707d6bb626a57920197c8e9b65e2"
           className="space-y-8"
           method="POST"
         >
@@ -51,7 +51,7 @@ function Contact() {
               name="message"
               rows={6}
               className="block p-2.5 w-full text-sm text-gray-800   bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-              placeholder="Leave a comment..."
+              placeholder="Tell me what we can build together :)"
             ></textarea>
           </div>
           <button

@@ -5,6 +5,10 @@ const Typing = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
+        "React.js",
+        500,
+        "React Native",
+        500,
         "Next.js",
         500,
         "TypeScript.js",

@@ -13,7 +13,7 @@ function Footer() {
           <SocialMedia size={35} />
         </div>
         <div className="flex text-white text-center p-5">
-          &copy; {new Date().getFullYear()} All rights reserved.
+          &copy; {new Date().getFullYear()} Special thanks to @denczo
         </div>
       </footer>
     </div>

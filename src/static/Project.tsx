@@ -14,7 +14,7 @@ function Project({
   link: string;
 }) {
   return (
-    <a href={link} aria-label={text}>
+    <a href={link} aria-label={text} target="_blank">
       <div className="flex flex-col transition-all hover:scale-105 scale-100 bg-opacity-20 bg-black rounded-lg max-h-max max-w-96 m-3 text-white">
         <img
           className="w-fit h-fit rounded-t-lg max-h-64"

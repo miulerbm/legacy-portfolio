@@ -1,39 +1,39 @@
 {
   "data": [
     {
-      "title": "Portfolio Website",
-      "image": "/images/PortfolioWebsite.webp",
-      "link": "",
-      "tags": ["Next.js", "Javascript", "Redux", "MUI"],
-      "text": "A portfolio website with responsive design that highlights professional work and services"
+      "title": "BackOffice Application",
+      "image": "/images/GopeBackOffice.webp",
+      "link": "https://www.linkedin.com/company/gope-app/",
+      "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
+      "text": "Management application for client assets, implemented with NextJS and REST APIs."
     },
     {
-      "title": "Trading App",
-      "image": "/images/TradingApp.webp",
-      "link": "",
-      "tags": ["Next.js", "Typescript", "Tailwind CSS"],
-      "text": "A single-page application with responsive design that highlights professional work"
+      "title": "Gope",
+      "image": "/images/GopeApp.webp",
+      "link": "https://www.linkedin.com/company/gope-app/",
+      "tags": ["React Native", "Typescript", "Redux"],
+      "text": "The app for connecting people with amazing experiences they will remember for ever."
     },
     {
-      "title": "Photo Website",
-      "image": "/images/PhotoWebsite.webp",
-      "link": "",
-      "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
-      "text": "A website to curate and share photos that capture life's most memorable moments."
+      "title": "Album Manager",
+      "image": "/images/MusicManager.webp",
+      "link": "https://github.com/miulerbm/DatabaseSQLMusicAppWF",
+      "tags": ["C#", "MySQL", "Apache Server"],
+      "text": "A music manager application for organizing all your favorite artists and their songs."
     },
     {
-      "title": "Photo Website",
-      "image": "/images/PhotoWebsite.webp",
-      "link": "",
-      "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
-      "text": "A website to curate and share photos that capture life's most memorable moments."
+      "title": "Machine Learning Labs",
+      "image": "/images/IBMlabs.webp",
+      "link": "https://github.com/miulerbm/IBM_MachineLearning",
+      "tags": ["Python", "Jupyter", "Sklearn"],
+      "text": "My lab challenges and models development for the IBM Machine Learning course."
     },
     {
-      "title": "Photo Website",
-      "image": "/images/PhotoWebsite.webp",
-      "link": "",
-      "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
-      "text": "A website to curate and share photos that capture life's most memorable moments."
+      "title": "Salary Estimator",
+      "image": "/images/MLWebApp.webp",
+      "link": "https://github.com/miulerbm/mlWebApp",
+      "tags": ["Python", "Jupyter", "Streamlit", "Sklearn"],
+      "text": "A machine learning application trained with sklearn models."
     }
   ]
 }

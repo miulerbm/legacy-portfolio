@@ -5,21 +5,28 @@
       "company": "Gope",
       "tasks": "Building react components and integrating backend and frontend in both desktop and mobile applications using the latest technologies.",
       "tags": ["React", "React Native", "TypeScript", "Redux", "Tailwind CSS"],
-      "year": "Today"
+      "year": "2024"
     },
     {
       "title": "PLC Programmer",
       "company": "Inversac",
       "tasks": "Programming ad troubleshooting PLC code for ensuring optimal functioning at industrial facilities.",
       "tags": ["SCL", "Ladder", "Tia Portal", "HMI", "PLC"],
+      "year": "2023"
+    },
+    {
+      "title": "Engineering Trainee",
+      "company": "STI",
+      "tasks": "Asset management and control using SAP ERP software and Visual Basic. Oral and written english translation for communication with foreign clients and providers.",
+      "tags": ["Visual Basic", "Python", "SAP ERP"],
       "year": "2022"
     },
     {
       "title": "IT Engineer",
       "company": "Engineering & Control",
-      "tasks": "Backoffice support and scripts implementation for improving ordinary tasks performance and efficiency. Engineering Design in CAD software.",
+      "tasks": "Backoffice support and scripts implementation for improving ordinary tasks performance and efficiency. Electrical Engineering Design in CAD software.",
       "tags": ["Visual Basic", "Python", "JavaScript", "Shell"],
-      "year": "2021"
+      "year": "2022"
     }
   ]
 }

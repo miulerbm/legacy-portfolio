@@ -1,7 +1,7 @@
 const Summary = () => {
   return (
-    <>
-      <p className="text-4xl mb-8">About me</p>
+    <div className="flex flex-col">
+      <p className="text-4xl mb-8 font-bold	">About me</p>
       <article
         className="desktop:text-xl mobile:text-md"
         itemScope
@@ -14,8 +14,13 @@ const Summary = () => {
           connecting people and different recreation activities such as tours,
           adventures, extreme sports, etc. Stay tuned, more comming soon!
         </p>
+        Something I like to remind:
+        <p className="mb-5 italic">
+          &quot;We who cut mere stones must always be envisioning
+          cathedrals&quot;
+        </p>
       </article>
-    </>
+    </div>
   );
 };
 

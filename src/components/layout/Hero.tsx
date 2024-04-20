@@ -11,10 +11,10 @@ function Hero() {
       <div className="flex mobile:justify-center desktop:flex-row desktop:items-center mobile:flex-col-reverse items-center w-full flex-1">
         <div className="flex flex-col z-20 pointer-events-none text-white desktop:w-3/5 mobile:w-full mobile:text-center">
           <p className="desktop:text-[5vw] mobile:text-[8vw] font-bold text-lightcyan w-full">
-            Greetings, I&apos;m Name
+            Greetings, I&apos;m Miuler
           </p>
           <p className="desktop:text-[3vw] mobile:text-[5vw]">
-            a developer specializing in web applications with
+            a developer specialized in building web applications with
             <Typing />
           </p>
           <div className="flex mobile:hidden mt-6 justify-start w-[17vw]">
@@ -22,8 +22,8 @@ function Hero() {
           </div>
         </div>
         <img
-          className="w-2/5 mobile:w-full mobile:max-w-xl object-contain self-center animate-scalepulse"
-          src="/portraitdummy.webp"
+          className="w-1/3 mobile:w-full mobile:max-w-xl object-contain self-center animate-scalepulse"
+          src="/portraitMiuler.webp"
           alt="Portrait"
         />
       </div>

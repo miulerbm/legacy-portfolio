@@ -1,7 +1,36 @@
+"use client";
+
 import Service from "@/static/Service";
 import ContactBtn from "../menu/elements/ContactBtn";
+import { useState } from "react";
 
-function Services() {
+const Services = () => {
+  // Estado para almacenar el nombre del archivo descargado
+  const [downloadedFile, setDownloadedFile] = useState("");
+
+  // Función para manejar el clic y descargar el archivo
+  const handleDownloadClick = () => {
+    // Aquí especifica la ruta del archivo que deseas descargar
+    const filePath = "/data/projects.json"; // Cambia esto por la ruta de tu archivo
+
+    // Crear un elemento de enlace temporal
+    const link = document.createElement("a");
+    link.href = filePath;
+
+    // Asignar el nombre del archivo descargado (opcional)
+    link.download = "miulerCV_eng"; // Cambia esto por el nombre que desees
+
+    // Simular un clic en el enlace para iniciar la descarga
+    document.body.appendChild(link);
+    link.click();
+
+    // Limpiar el enlace temporal
+    document.body.removeChild(link);
+
+    // Actualizar el estado para mostrar que se ha descargado el archivo
+    setDownloadedFile("projects.json"); // Cambia esto por el nombre que hayas utilizado
+  };
+
   return (
     <div
       id="Services"
@@ -15,7 +44,13 @@ function Services() {
       <p className="flex text-4xl my-8 justify-center text-white font-bold">
         Services
       </p>
+
       <div className="flex desktop:flex-row mobile:flex-col mobile:items-center flex-grow justify-around text-center">
+        <Service
+          hl="React Components"
+          desc="Functional components implementation using best practices and latest innovations in React"
+          img="/icons/react.svg"
+        />
         <Service
           hl="Single Page Applications"
           desc="Development of responsive web apps such as portfolios, landingpages and dashboards"
@@ -26,11 +61,6 @@ function Services() {
           desc="Seamless integration into your solution for dynamic content delivery"
           img="/icons/api.svg"
         />
-        <Service
-          hl="React Components"
-          desc="Functional components implementation using best practices and latest innovations in React"
-          img="/icons/react.svg"
-        />
       </div>
       <p className="desktop:text-[40px] mobile:text-[24px] font-bold text-center mb-4">
         You have a project? Get in Touch
@@ -38,6 +68,6 @@ function Services() {
       <ContactBtn title={"Contact Me"} />
     </div>
   );
-}
+};
 
 export default Services;
