@@ -5,17 +5,17 @@ const Typing = () => {
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        "React.js",
+        "React",
         500,
         "React Native",
         500,
         "Next.js",
         500,
-        "TypeScript.js",
+        "TypeScript",
         500,
         "Tailwind CSS",
         500,
-        "React.js",
+        "React",
         500,
       ]}
       wrapper="span"
