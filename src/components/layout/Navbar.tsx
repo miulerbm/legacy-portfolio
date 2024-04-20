@@ -2,6 +2,7 @@
 
 import useScrollPos from "@/hooks/useScrollPos";
 import MenuItem from "../menu/elements/MenuItem";
+import ContactBtn from "../menu/elements/ContactBtn";
 
 const Navbar = () => {
   const isAtTop = useScrollPos();
@@ -17,6 +18,7 @@ const Navbar = () => {
         <MenuItem title={"About"} />
         <MenuItem title={"Projects"} />
         <MenuItem title={"Services"} />
+        <ContactBtn title={"Contact"} />
       </div>
     </div>
   );

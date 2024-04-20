@@ -3,7 +3,7 @@ function Contact() {
     <section className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 desktop:w-1/3 mobile:w-full mobile:px-4 mobile:max-w-3xl">
       <div className="px-2 mx-auto">
         <form
-          action="https://formsubmit.co/miulerbm00@gmail.com"
+          action="https://formspree.io/f/mgegryzp"
           className="space-y-8"
           method="POST"
         >
