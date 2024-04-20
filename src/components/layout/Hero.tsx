@@ -22,7 +22,7 @@ function Hero() {
           </div>
         </div>
         <img
-          className="w-1/3 mobile:w-full mobile:max-w-xl object-contain self-center animate-scalepulse"
+          className="w-1/4 mobile:w-1/2 mobile:max-w-xl object-contain self-center animate-scalepulse"
           src="/portraitMiuler.webp"
           alt="Portrait"
         />
