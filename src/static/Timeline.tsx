@@ -3,7 +3,7 @@ import Tag from "./Tag";
 
 function Timeline() {
   return (
-    <div className="text-xl">
+    <div className="text-lg">
       {timelineData.data.map((item, index) => (
         <div key={"W" + index} className="flex">
           <div>
