@@ -3,9 +3,27 @@
 import Contact from "@/static/Contact";
 import Close from "../menu/elements/Close";
 import { useGlobalState } from "@/contexts/GlobalStateContext";
+import { useEffect } from "react";
 
 function Modal() {
   const { isModalOpen, exitModal } = useGlobalState();
+
+  // Adding a feature for closing the modal with ESC:
+  useEffect(() => {
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        exitModal();
+      }
+    }
+
+    // Adding event listener:
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      // Remove the event listener when component is unmounted:
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [exitModal]);
 
   return (
     <>
