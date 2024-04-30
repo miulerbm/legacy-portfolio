@@ -15,6 +15,13 @@
       "text": "The app for connecting people with amazing experiences they will remember for ever."
     },
     {
+      "title": "Personal Blog",
+      "image": "/images/PersonalBlogAstro.webp",
+      "link": "https://github.com/miulerbm/astro-blog",
+      "tags": ["Astro", "JavaScript", "Tailwind CSS"],
+      "text": "A blog page for keeping track of my developer journey and interesting ideas I find in the path."
+    },
+    {
       "title": "Album Manager",
       "image": "/images/MusicManager.webp",
       "link": "https://github.com/miulerbm/DatabaseSQLMusicAppWF",
