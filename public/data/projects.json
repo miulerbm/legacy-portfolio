@@ -1,6 +1,13 @@
 {
   "data": [
     {
+      "title": "miulerBlog",
+      "image": "/images/miulerbmBlog.webp",
+      "link": "https://miuler-blog.vercel.app/",
+      "tags": ["Next.js", "Typescript", "Velite", "Tailwind CSS"],
+      "text": "My personal blog for my ramblings on all things web dev."
+    },
+    {
       "title": "BackOffice Application",
       "image": "/images/GopeBackOffice.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
@@ -12,14 +19,14 @@
       "image": "/images/GopeApp.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["React Native", "Typescript", "Redux"],
-      "text": "The app for connecting people with amazing experiences they will remember for ever."
+      "text": "The app for connecting people with diverse recreational activities."
     },
     {
       "title": "Astro Blog",
       "image": "/images/PersonalBlogAstro.webp",
       "link": "https://astro-blog-00.vercel.app/",
       "tags": ["Astro", "JavaScript", "Tailwind CSS"],
-      "text": "A blog page built using Astro, a cutting edge framework that integrates multiple frontend tools."
+      "text": "A blog page built using Astro, a cutting edge framework."
     },
     {
       "title": "Album Manager",
