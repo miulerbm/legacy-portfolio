@@ -15,11 +15,11 @@
       "text": "The app for connecting people with amazing experiences they will remember for ever."
     },
     {
-      "title": "Personal Blog",
+      "title": "Astro Blog",
       "image": "/images/PersonalBlogAstro.webp",
-      "link": "https://miuler-blog.vercel.app/",
+      "link": "https://astro-blog-00.vercel.app/",
       "tags": ["Astro", "JavaScript", "Tailwind CSS"],
-      "text": "A blog page for keeping track of my developer journey and interesting ideas I find in the path."
+      "text": "A blog page built using Astro, a cutting edge framework that integrates multiple frontend tools."
     },
     {
       "title": "Album Manager",
