@@ -22,6 +22,13 @@
       "text": "My personal blog page built using Next.js. Read about my journey :)"
     },
     {
+      "title": "Pong Game",
+      "image": "/images/PongGame.webp",
+      "link": "https://miulerbm.github.io/pong-js/",
+      "tags": ["JavaScript", "HTML", "CSS"],
+      "text": "Multiplayer pong game for desktop. Built using JavaScript, HTML and CSS."
+    },
+    {
       "title": "Astro Blog",
       "image": "/images/PersonalBlogAstro.webp",
       "link": "https://astro-blog-00.vercel.app/",
