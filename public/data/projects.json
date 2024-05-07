@@ -1,53 +1,32 @@
 {
   "data": [
     {
-      "title": "miulerBlog",
-      "image": "/images/miulerbmBlog.webp",
-      "link": "https://miuler-blog.vercel.app/",
-      "tags": ["Next.js", "Typescript", "Velite", "Tailwind CSS"],
-      "text": "My personal blog for my ramblings on all things web dev."
+      "title": "Gope",
+      "image": "/images/GopeApp.webp",
+      "link": "https://www.linkedin.com/company/gope-app/",
+      "tags": ["React Native", "Typescript", "Redux"],
+      "text": "Connecting people with fun activities (comming soon)."
     },
     {
       "title": "BackOffice Application",
       "image": "/images/GopeBackOffice.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
-      "text": "Management application for client assets, implemented with NextJS and REST APIs."
+      "text": "Managament app implemented with NextJS and REST APIs (comming soon)."
     },
     {
-      "title": "Gope",
-      "image": "/images/GopeApp.webp",
-      "link": "https://www.linkedin.com/company/gope-app/",
-      "tags": ["React Native", "Typescript", "Redux"],
-      "text": "The app for connecting people with diverse recreational activities."
+      "title": "miulerBlog",
+      "image": "/images/miulerbmBlog.webp",
+      "link": "https://miuler-blog.vercel.app/",
+      "tags": ["Next.js", "Typescript", "Velite", "Tailwind CSS"],
+      "text": "My personal blog page built using Next.js. Read about my journey :)"
     },
     {
       "title": "Astro Blog",
       "image": "/images/PersonalBlogAstro.webp",
       "link": "https://astro-blog-00.vercel.app/",
       "tags": ["Astro", "JavaScript", "Tailwind CSS"],
-      "text": "A blog page built using Astro, a cutting edge framework."
-    },
-    {
-      "title": "Album Manager",
-      "image": "/images/MusicManager.webp",
-      "link": "https://github.com/miulerbm/DatabaseSQLMusicAppWF",
-      "tags": ["C#", "MySQL", "Apache Server"],
-      "text": "A music manager application for organizing all your favorite artists and their songs."
-    },
-    {
-      "title": "Machine Learning Labs",
-      "image": "/images/IBMlabs.webp",
-      "link": "https://github.com/miulerbm/IBM_MachineLearning",
-      "tags": ["Python", "Jupyter", "Sklearn"],
-      "text": "My lab challenges and models development for the IBM Machine Learning course."
-    },
-    {
-      "title": "Salary Estimator",
-      "image": "/images/MLWebApp.webp",
-      "link": "https://github.com/miulerbm/mlWebApp",
-      "tags": ["Python", "Jupyter", "Streamlit", "Sklearn"],
-      "text": "A machine learning application trained with sklearn models."
+      "text": "Blog page built using Astro, a cutting edge frontend framework."
     }
   ]
 }
