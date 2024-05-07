@@ -5,14 +5,14 @@
       "image": "/images/GopeApp.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["React Native", "Typescript", "Redux"],
-      "text": "Connecting people with fun activities (comming soon)."
+      "text": "Connecting people with fun activities (coming soon)."
     },
     {
       "title": "BackOffice Application",
       "image": "/images/GopeBackOffice.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
-      "text": "Managament app implemented with NextJS and REST APIs (comming soon)."
+      "text": "Managament app implemented with NextJS and REST APIs (coming soon)."
     },
     {
       "title": "miulerBlog",
