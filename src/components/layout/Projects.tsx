@@ -24,6 +24,9 @@ function Projects() {
             text={item.text}
             tags={item.tags}
             link={item.link}
+            indev={item.indev}
+            desktop={item.desktop}
+            mobile={item.mobile}
           />
         ))}
       </div>

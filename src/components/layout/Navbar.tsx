@@ -3,6 +3,7 @@
 import useScrollPos from "@/hooks/useScrollPos";
 import MenuItem from "../menu/elements/MenuItem";
 import ContactBtn from "../menu/elements/ContactBtn";
+import LinkItem from "../menu/elements/LinkItem";
 
 const Navbar = () => {
   const isAtTop = useScrollPos();
@@ -16,6 +17,7 @@ const Navbar = () => {
     >
       <div className="flex justify-around items-center text-2xl w-1/2">
         <MenuItem title={"About"} />
+        <LinkItem title="Blog" href="https://miuler-blog.vercel.app/" />
         <MenuItem title={"Projects"} />
         <MenuItem title={"Services"} />
         <ContactBtn title={"Contact"} />

@@ -5,35 +5,50 @@
       "image": "/images/GopeApp.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["React Native", "Typescript", "Redux"],
-      "text": "Connecting people with fun activities (coming soon)."
+      "text": "Connecting people with diverse recreational activities.",
+      "indev": true,
+      "desktop": true,
+      "mobile": true
     },
     {
-      "title": "BackOffice Application",
+      "title": "Management App",
       "image": "/images/GopeBackOffice.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
-      "text": "Managament app implemented with NextJS and REST APIs (coming soon)."
+      "text": "Backoffice application implemented with NextJS and REST APIs.",
+      "indev": true,
+      "desktop": true,
+      "mobile": true
     },
     {
       "title": "miulerBlog",
       "image": "/images/miulerbmBlog.webp",
       "link": "https://miuler-blog.vercel.app/",
       "tags": ["Next.js", "Typescript", "Velite", "Tailwind CSS"],
-      "text": "My personal blog page built using Next.js. Read about my journey :)"
+      "text": "My personal blog page built using Next.js. Read about my journey :)",
+      "indev": false,
+      "desktop": true,
+      "mobile": true
     },
     {
-      "title": "Pong Game",
+      "title": "Pong Game (1v1)",
       "image": "/images/PongGame.webp",
       "link": "https://miulerbm.github.io/pong-js/",
       "tags": ["JavaScript", "HTML", "CSS"],
-      "text": "Multiplayer pong game for desktop. Built using JavaScript, HTML and CSS."
+      "text": "Multiplayer pong game for desktop. Built using JavaScript, HTML and CSS.",
+      "indev": false,
+      "desktop": true,
+      "mobile": false
     },
     {
       "title": "Astro Blog",
       "image": "/images/PersonalBlogAstro.webp",
       "link": "https://astro-blog-00.vercel.app/",
       "tags": ["Astro", "JavaScript", "Tailwind CSS"],
-      "text": "Blog page built using Astro, a cutting edge frontend framework."
+      "text": "Blog page built using Astro, a cutting edge frontend framework.",
+      "indev": false,
+      "desktop": true,
+      "mobile": true
     }
   ]
 }
