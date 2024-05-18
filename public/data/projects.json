@@ -11,12 +11,22 @@
       "mobile": true
     },
     {
-      "title": "Management App",
+      "title": "Gope Dashboard",
       "image": "/images/GopeBackOffice.webp",
       "link": "https://www.linkedin.com/company/gope-app/",
       "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
       "text": "Backoffice application implemented with NextJS and REST APIs.",
       "indev": true,
+      "desktop": true,
+      "mobile": true
+    },
+    {
+      "title": "CaseCobra",
+      "image": "/images/CaseCobra.webp",
+      "link": "https://astro-blog-00.vercel.app/",
+      "tags": ["Astro", "JavaScript", "Tailwind CSS"],
+      "text": "Phone Case webstore built using Next.js, Tailwind. Auth and payment functionalities.",
+      "indev": false,
       "desktop": true,
       "mobile": true
     },
@@ -39,16 +49,6 @@
       "indev": false,
       "desktop": true,
       "mobile": false
-    },
-    {
-      "title": "Astro Blog",
-      "image": "/images/PersonalBlogAstro.webp",
-      "link": "https://astro-blog-00.vercel.app/",
-      "tags": ["Astro", "JavaScript", "Tailwind CSS"],
-      "text": "Blog page built using Astro, a cutting edge frontend framework.",
-      "indev": false,
-      "desktop": true,
-      "mobile": true
     }
   ]
 }
