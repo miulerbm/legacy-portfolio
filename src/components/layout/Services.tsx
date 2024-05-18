@@ -47,8 +47,8 @@ const Services = () => {
 
       <div className="flex desktop:flex-row mobile:flex-col mobile:items-center flex-grow justify-around text-center">
         <Service
-          hl="React Components"
-          desc="Functional components implementation using best practices and latest innovations in React"
+          hl="React Projects"
+          desc="Functional project implementation using best practices and latest innovations in React"
           img="/icons/react.svg"
         />
         <Service
@@ -58,11 +58,11 @@ const Services = () => {
         />
         <Service
           hl="API Integration"
-          desc="Seamless integration into your solution for dynamic content delivery"
+          desc="Implementation and consumption of REST APIs for connecting data across multiple services"
           img="/icons/api.svg"
         />
       </div>
-      <p className="desktop:text-[40px] mobile:text-[24px] font-bold text-center mb-4">
+      <p className="desktop:text-[40px] mobile:text-[24px] font-bold text-center mb-4 mt-8">
         You have a project? Get in Touch
       </p>
       <ContactBtn title={"Contact Me"} />
