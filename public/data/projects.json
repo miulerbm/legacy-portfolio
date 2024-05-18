@@ -3,7 +3,7 @@
     {
       "title": "Gope",
       "image": "/images/GopeApp.webp",
-      "link": "https://www.linkedin.com/company/gope-app/",
+      "link": "https://www.linkedin.com/company/gope-app",
       "tags": ["React Native", "Typescript", "Redux"],
       "text": "Connecting people with diverse recreational activities.",
       "indev": true,
@@ -13,7 +13,7 @@
     {
       "title": "Gope Dashboard",
       "image": "/images/GopeBackOffice.webp",
-      "link": "https://www.linkedin.com/company/gope-app/",
+      "link": "https://www.linkedin.com/company/gope-app",
       "tags": ["Next.js", "Typescript", "Redux", "Tailwind CSS"],
       "text": "Backoffice application implemented with NextJS and REST APIs.",
       "indev": true,
@@ -23,8 +23,8 @@
     {
       "title": "CaseCobra",
       "image": "/images/CaseCobra.webp",
-      "link": "https://astro-blog-00.vercel.app/",
-      "tags": ["Astro", "JavaScript", "Tailwind CSS"],
+      "link": "https://casecobra-woad.vercel.app",
+      "tags": ["Next.js", "Tailwind CSS", "Kinde", "Stripe"],
       "text": "Phone Case webstore built using Next.js, Tailwind. Auth and payment functionalities.",
       "indev": false,
       "desktop": true,
@@ -33,7 +33,7 @@
     {
       "title": "miulerBlog",
       "image": "/images/miulerbmBlog.webp",
-      "link": "https://miuler-blog.vercel.app/",
+      "link": "https://miuler-blog.vercel.app",
       "tags": ["Next.js", "Typescript", "Velite", "Tailwind CSS"],
       "text": "My personal blog page built using Next.js. Read about my journey :)",
       "indev": false,
@@ -43,7 +43,7 @@
     {
       "title": "Pong Game (1v1)",
       "image": "/images/PongGame.webp",
-      "link": "https://miulerbm.github.io/pong-js/",
+      "link": "https://miulerbm.github.io/pong-js",
       "tags": ["JavaScript", "HTML", "CSS"],
       "text": "Multiplayer pong game for desktop. Built using JavaScript, HTML and CSS.",
       "indev": false,
